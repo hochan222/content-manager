@@ -5,5 +5,7 @@ git submodule init
 # Cloning content, yari repo into translated repo
 git submodule update
 
+cd content
+
 # list files
-find files/en-us -type f > list.txt
+find files/en-us -type f > ../file-list.txt
