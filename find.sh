@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# Register content, yari repo in git local config
+# Register content, translated-content repo in git local config
 git submodule init
-# Cloning content, yari repo into translated repo
+# Cloning content, translated-content repo into translated repo
 git submodule update
 
 cd content
